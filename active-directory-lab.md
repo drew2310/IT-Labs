@@ -16,42 +16,40 @@ Environment: Windows server 2025 - Windows 11 - Microsoft Azure
 
 ## Lab Walkthrough
 
-Active Directory Setup:
 Deployed AD DS on Windows Server and promoted to domain controller.
 
 *insert pic*
 
 ---
 
-Domain Join & DNS Configuration:
 Joined Windows 11 client to the domain and configured DNS to point to the domain controller.
 
 *insert pic* 
 
 ---
 
-User & OU Management:
 Created Organizational Units and provisioned user accounts with appropriate group memberships.
 
 *insert pic*
 
 ---
 
-Group Policy Configuration: 
 Created and linked a GPO to enforce acess restrictions across domain users.
 
 *insert pic*
 
 ---
 
-Troubleshooting Authentication Issues:
 Resolved login failures caused by disabled accounts and expired passwords.
 
 *insert pic*
 
 ---
 
-## Summary
-*Takeaways*
-- How DNS, Active Directory, and user account states affect domain authentication.
-- How Group Policy enforces security and access control across domain users.
+## Results & Takeaways
+- Learned how quickly small misconfigurations can cascade into login failures for end users
+- Better understood the relationship between DNS, domain membership, and authentication
+- Group Policy proved to be a powerful tool — a single misconfigured GPO can lock out an entire OU
+- Troubleshooting in a live domain felt very close to real help desk scenarios
+
+
