@@ -47,7 +47,7 @@ Resolved login failures caused by disabled accounts and expired passwords.
 ---
 
 ## Results & Takeaways
-- Learned how quickly small misconfigurations can cascade into login failures for end users
+- Learned how quickly small misconfigurations can lead into login failures for end users
 - Better understood the relationship between DNS, domain membership, and authentication
 - Group Policy proved to be a powerful tool for user management
 - Troubleshooting in a live domain felt very close to real help desk scenarios
