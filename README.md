@@ -1,2 +1,1 @@
-# IT-Labs
-Portfolio of some IT labs I worked on. 
+# A collection of hands-on IT Support labs that cover Active Directory and help desk ticketing. Still a work in progress!
